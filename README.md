@@ -1,2 +1,2 @@
 # YoukaiMath
-A math library for C# and Unity.
+A math library for and Unity using C#.
