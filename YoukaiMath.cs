@@ -320,6 +320,25 @@ namespace YoukaiFox.Math
         /// <param name="Random.Range(1"></param>
         /// <param name="1"></param>
         /// <returns></returns>
+        /// 
         public static int RollDice(int sides) { return Random.Range(1, sides + 1); }
+
+        /// <summary>
+        /// Get a random Vector2 with a length of 1.
+        /// </summary>
+        /// <returns></returns>
+        public static Vector2 GetRandomNormalizedVector2()
+        {
+            return new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        }
+
+        /// <summary>
+        /// Get a random Vector3 with a length of 1.
+        /// </summary>
+        /// <returns></returns>
+        public static Vector3 GetRandomNormalizedVector3()
+        {
+            return new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        }
     }
 }
