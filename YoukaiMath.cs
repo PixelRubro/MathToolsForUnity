@@ -340,5 +340,59 @@ namespace YoukaiFox.Math
         {
             return new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
         }
+
+        public static Vector2 Acceleration(Vector2 netForce, float mass)
+        {
+            if (netForce.Equals(Vector2.zero))
+            {
+                return Vector2.zero;
+            }
+
+            return netForce / mass;
+        }
+
+        public static Vector3 Acceleration(Vector3 netForce, float mass)
+        {
+            if (netForce.Equals(Vector3.zero))
+            {
+                return Vector3.zero;
+            }
+
+            return netForce / mass;
+        }
+
+        public static Vector2 Velocity(Vector2 acceleration)
+        {
+            return acceleration * Time.deltaTime;
+        }
+
+        public static Vector3 Velocity(Vector3 acceleration)
+        {
+            return acceleration * Time.deltaTime;
+        }
+
+        public static Vector2 ClampVector2(Vector2 value, float maxLength)
+        {
+            var magnitude = value.magnitude;
+
+            if (magnitude <= maxLength)
+            {
+                return value;
+            }
+
+            return value.normalized * maxLength;
+        }
+
+        public static Vector3 ClampVector3(Vector3 value, float maxLength)
+        {
+            var magnitude = value.magnitude;
+
+            if (magnitude <= maxLength)
+            {
+                return value;
+            }
+
+            return value.normalized * maxLength;
+        }
     }
 }
