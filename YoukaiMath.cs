@@ -406,5 +406,13 @@ namespace YoukaiFox.Math
         {
             return worldPosition - pointToRelateTo;
         }
+
+        /// <summary>
+        /// Round the <paramref name="value"/> to a number divisible by 0.5.
+        /// </summary>
+        public static float RoundToHalf(float value)
+        {
+            return (float) System.Math.Round(value * 2, System.MidpointRounding.AwayFromZero) * 0.5f;
+        }
     }
 }
