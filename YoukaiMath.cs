@@ -394,5 +394,17 @@ namespace YoukaiFox.Math
 
             return value.normalized * maxLength;
         }
+
+        /// <summary>
+        /// Translates a world position <paramref name="worldPosition"/> to relative position in relation
+        /// to a point <paramref name="pointToRelateTo"/>;
+        /// </summary>
+        /// <param name="worldPosition">Position to be translated.</param>
+        /// <param name="pointToRelateTo">Point which will be the origin relative to point in <paramref name="worldPosition"/></param>
+        /// <returns></returns>
+        public static Vector3 WorldToLocalPosition(Vector3 worldPosition, Vector3 pointToRelateTo)
+        {
+            return worldPosition - pointToRelateTo;
+        }
     }
 }
