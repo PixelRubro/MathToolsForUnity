@@ -286,7 +286,7 @@ namespace YoukaiFox.Math
         /// </summary>
         /// <param name="n"></param>
         /// <returns></returns>
-        public static float Abs(int n) 
+        public static int Abs(int n) 
         {
             if (n >= 0) return n;
             return -n;
