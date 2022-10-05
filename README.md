@@ -1,3 +1,3 @@
-# SBMath
+# Math Tools
 
-A math library for and Unity using C#.
+Libraries for use in Unity projects with tools for math, physics and random.
