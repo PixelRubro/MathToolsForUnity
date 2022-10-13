@@ -15,4 +15,4 @@ Libraries for use in Unity projects with tools for math, physics and random.
 
 Add the following line to your `manifest.json` found in the "Packages" folder
 
-`    "com.softboiledgames.unityxtension": "git@github.com:SoftBoiledGames/MathTools.git"`
+`    "com.softboiledgames.mathtools": "git@github.com:SoftBoiledGames/MathTools.git"`
