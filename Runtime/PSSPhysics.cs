@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-namespace SoftBoiledGames.MathTools
+namespace PixelSpark.MathTools
 {
-    public static class SBPhysics
+    public static class PSSPhysics
     {
         /// <summary>
         /// Returns a Vector2 representing the initial velocity of the rigidbody that it needs
@@ -16,7 +16,7 @@ namespace SoftBoiledGames.MathTools
         public static Vector2 GetParabolaInitialVelocity(Vector2 initialPosition, Vector2 finalPosition, float time)
         {
             var velocity = Velocity(initialPosition, finalPosition, time);
-            velocity.y += 0.5f * SBMath.Abs(Physics2D.gravity.y) * Mathf.Pow(time, 2f) / time;
+            velocity.y += 0.5f * PSSMath.Abs(Physics2D.gravity.y) * Mathf.Pow(time, 2f) / time;
             return velocity;
         }
         
@@ -32,7 +32,7 @@ namespace SoftBoiledGames.MathTools
         public static Vector3 GetParabolaInitialVelocity(Vector3 initialPosition, Vector3 finalPosition, float time)
         {
             var velocity = Velocity(initialPosition, finalPosition, time);
-            velocity.y += 0.5f * SBMath.Abs(Physics.gravity.y) * Mathf.Pow(time, 2f) / time;
+            velocity.y += 0.5f * PSSMath.Abs(Physics.gravity.y) * Mathf.Pow(time, 2f) / time;
             return velocity;
         }
 

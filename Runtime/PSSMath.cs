@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace SoftBoiledGames.MathTools
+namespace PixelSpark.MathTools
 {
-    public static class SBMath
+    public static class PSSMath
     {
         /// <summary>
         /// Converts an angle value in radians to its correspondent value in degrees.

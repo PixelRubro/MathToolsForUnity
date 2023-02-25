@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-namespace SoftBoiledGames.MathTools
+namespace PixelSpark.MathTools
 {
-    public static class SBRandom
+    public static class PSSRandom
     {
         /// <summary>
         /// Simulate a heads or tails toss.

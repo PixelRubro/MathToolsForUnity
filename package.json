@@ -1,11 +1,11 @@
 {
-  "name": "com.softboiledgames.mathtools",
+  "name": "com.pixelsparkstudio.mathtools",
   "displayName": "Math Tools",
   "description": "Libraries for use in Unity projects with tools for math, physics and random.",
   "version": "0.0.1",
   "unity": "2019.4",
   "license": "MIT",
   "author": {
-    "name": "Soft Boiled Games"
+    "name": "Pixel Spark Studio"
   }
 }
