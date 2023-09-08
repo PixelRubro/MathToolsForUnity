@@ -1,11 +1,11 @@
 {
-  "name": "com.pixelsparkstudio.mathtools",
+  "name": "com.vermillionvanguard.mathtools",
   "displayName": "Math Tools",
   "description": "Libraries for use in Unity projects with tools for math, physics and random.",
   "version": "0.0.1",
   "unity": "2019.4",
   "license": "MIT",
   "author": {
-    "name": "Pixel Spark Studio"
+    "name": "Vermillion Vanguard Studio"
   }
 }

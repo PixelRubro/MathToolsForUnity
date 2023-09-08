@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace PixelSpark.MathTools
+namespace VermillionVanguard.MathTools
 {
     public static class PSSPhysics
     {
