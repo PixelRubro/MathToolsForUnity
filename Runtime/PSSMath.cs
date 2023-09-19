@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace VermillionVanguard.MathTools
+namespace PixelRouge.MathTools
 {
     public static class PSSMath
     {

@@ -1,11 +1,11 @@
 {
-  "name": "com.vermillionvanguard.mathtools",
-  "displayName": "Math Tools",
+  "name": "com.pixelrouge.mathtoolsforunity",
+  "displayName": "Math Tools for Unity",
   "description": "Libraries for use in Unity projects with tools for math, physics and random.",
   "version": "0.0.1",
   "unity": "2019.4",
   "license": "MIT",
   "author": {
-    "name": "Vermillion Vanguard Studio"
+    "name": "Pixel Rouge Studio"
   }
 }
